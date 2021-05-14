@@ -1,0 +1,336 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    cursor: url(./cursor.png), auto;
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Girassol', cursive;
+}
+
+header{
+    background-color:	#910000;
+    
+}
+nav{
+    background-color: cornsilk;
+    width: 100%;
+    height:5rem;
+    box-shadow:  10px 10px 10px hsla(0, 0%, 1%, 0.5);
+}
+nav h3{
+    position: relative;
+    top:1rem;
+}
+nav ul{
+    float:left;
+    display:flex;
+}
+nav ul li{
+    Float:left;
+    list-style:none;
+    position:relative;
+}
+nav h3{
+    padding: 1rem 2rem;
+    float:left;
+    align-self: center ;
+}
+
+nav ul li a{
+    display:block;
+    padding: 0 2rem;
+    line-height: 5rem;
+    color:#000000;
+    text-decoration: none;
+}
+
+nav ul li ul{
+    display:none;
+    position: absolute;
+    background-color: cornsilk;
+    border:1px solid 	#FAF0E6;
+}
+
+nav ul li:hover ul{
+    display:block;
+}
+
+nav ul li ul li a{
+    padding: 1rem 2rem;
+    line-height:unset;
+    white-space: nowrap;
+}
+
+nav ul li ul li a:hover{
+    background-color: rgb(255, 232, 232);
+}
+
+nav ul li ul li{
+    width:100%;
+}
+
+.wave{
+    position:relative;
+    z-index: -1;
+}
+
+.carusel{
+    position:relative;
+    top:20rem;
+}
+
+.imagen1{
+    width: 450px;
+    height: 450px;
+    margin: 100px 0 0 170px;
+    border: 7px solid #f7b733;
+    float:left;
+    border-radius:30% 70% 60% 40% / 46% 46% 54% 54%;
+    background-image:top -10px center;
+    background-blend-mode: multiply;
+    animation: morph 8s ease-in-out infinite 1s;
+}  
+
+@keyframes morph {
+    0%{
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+        background-image: url(https://images-ext-1.discordapp.net/external/ZD2eOTN7gH_4khiAdModx2X8WNMd_GQJ-u0fvawYrpk/https/m.media-amazon.com/images/I/511osACJ9SL.jpg)
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+        background-image: url(https://images-ext-1.discordapp.net/external/ZD2eOTN7gH_4khiAdModx2X8WNMd_GQJ-u0fvawYrpk/https/m.media-amazon.com/images/I/511osACJ9SL.jpg)
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        
+    }
+}
+
+.imagen11{
+    background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2021/03/polaroid-candyplay-3d-pen-3.jpg);
+    background-size: cover;
+    background-position:top -10px center;
+    background-blend-mode: multiply;
+    animation: morphTwo 8s ease-in-out infinite 1s;
+}  
+
+@keyframes morphTwo {
+    0%{
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+        
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+        
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        
+    }
+}
+
+footer{
+    width: 1521px;
+    height: 500px;
+    background-color: #910000;
+    position: absolute;
+    bottom: -1450px;
+}
+
+h1{
+    position: absolute;
+    right: 420px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 2px 2px rgb(255, 165, 29);
+    color: rgb(41, 1, 1);
+    font-size: 80px;
+}
+.music{
+position: relative;
+bottom: -160px;
+}
+
+.reloj{
+    size:50px;
+    position: absolute;
+    bottom:-300px;
+    left: 500px;
+    background-color: brown;
+}
+
+.wave2{
+    position: relative;
+    top: 970px;
+}
+.video2{
+position:absolute;
+bottom:-50px;
+margin-left: 20px;
+}
+
+.text{
+    position:relative;
+    top:-10px;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(32, 0, 0);
+    background-color: blanchedalmond;
+}
+
+.text2{
+    position: relative;
+    top:450px;
+    text-align: center;
+
+}
+
+.bolita{
+    position: absolute;
+    top:1190px;
+}
+
+.video{
+    position:absolute;
+    top: 1900px;
+    margin-left: 30px;
+}
+
+.position{
+    position: relative;
+    top: 1500px;
+}
+
+.text3{
+    position:absolute;
+    bottom:-230px;
+    height: 250px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(248, 207, 152);
+    margin-left:40px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.gif{
+    position: absolute;
+    top:590px;
+    left: 600px;
+    height: 20PX;
+    width:30px;
+}
+
+.marq{
+    position: absolute;
+    right:50px;
+}
+
+.marq2{
+    position: relative;
+    top:450px;
+}
+
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px rgb(197, 85, 10);
+    font-style: oblique;
+    color: rgb(26, 5, 5);
+}
+
+.icon{
+    position:absolute;
+
+}
+
+.avatar{
+    display: flex;
+    margin: 0 15px;
+}
+
+.correo{
+    position: absolute;
+    left: 100px;
+    bottom: -170px;
+    width: 80px;
+    height: 90px;
+    padding:10px;
+}
+
+p{
+    font: bold;
+    color: rgb(26, 5, 5);
+}
+
+.counter{
+    position:absolute;
+    left: 500px;
+    bottom: -450px;
+}
+
+.formulario{
+    position: absolute;
+    bottom: -580px; 
+    right: 10px;
+}
+
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    right: 90px;
+    bottom: -2300px;
+}
+    #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: justify;
+    }
+    #customers tr:nth-child(even){background-color: #fce4a1;}
+    #customers tr:nth-child(odd){background-color: #fff0f0;}
+    #customers tr:hover {background-color: #ddd;}
+    #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4b0000;
+    color: white;
+}
+
+.text4{
+    position: absolute;
+    bottom: -950px;
+    left: 35%;
+    right:40%;
+    z-index: 1;
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(255, 202, 163, 0.5);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagen4{
+    position:absolute;
+    bottom:-2400px;
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+}
+.marq3{
+position: relative;
+bottom:-2500px ; 
+}
